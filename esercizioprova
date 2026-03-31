@@ -1,3 +1,4 @@
+testo = '''
 Day after day, day after day,
 We stuck, nor breath nor motion;
 As idle as a painted ship
@@ -17,3 +18,30 @@ About, about, in reel and rout
 The death-fires danced at night;
 The water, like a witch's oils,
 Burnt green, and blue and white.
+'''
+
+# risolvendo parte 1 esercizio 2
+
+# divido il testo in bas al carattere \n
+lista_righe = testo.split('\n')
+
+contatore = 0
+for riga in lista_righe:
+    if len(riga) > 0:
+        contatore = contatore + 1
+
+print (contatore)
+
+lista_parole = testo.split( )
+
+contatore = 0
+for parola in lista_parole:
+    if len(parola) > 0:
+        contatore = contatore + 1
+
+print (contatore)
+
+
+
+
+
